@@ -1,0 +1,28 @@
+.my-column{
+    text-align: center;
+}
+.logo{
+    height: 50px;
+}
+.hero{
+    margin-top: 100px;
+}
+
+.hero-img{
+    height: 500px;
+}
+.slider-pic{
+    height: 500px;
+}
+.slider-pic{
+    height: 500px;
+}
+
+.slider-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}

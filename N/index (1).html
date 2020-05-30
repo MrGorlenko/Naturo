@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/css/style.css">
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+    <img src="img/logo.png" alt="" class="logo">
+      </span>
+    </div>
+  </nav>
+
+   <section class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <img class='hero-img' src="img/saske.png" alt="">
+        </div>
+        <div class="col-4">
+          <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis maxime earum sequi eum! Recusandae, quo assumenda. Ut quam consectetur ullam in quia beatae inventore aliquam consequatur sapiente libero reiciendis, quas dolores suscipit quidem quo maiores vitae dolorum illum quasi obcaecati animi maxime! Sint asperiores similique architecto ipsam, autem omnis exercitationem! </p>
+        </div>
+        <div class="col-4">
+          <img class='hero-img' src="img/naruto.png" alt="">
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <section class="slider">
+
+    <div class="your-class">
+      <div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-4"> <img class='slider-pic' src="img/saske.png" alt=""></div>
+            <div class="slider-text  col-8">
+              <h3 class="slider-name">Saske</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis aliquam nostrum commodi quos harum ut dolore iusto corporis, similique modi eveniet ipsum quas iste ex veritatis. Fugit repudiandae corporis a aliquid quisquam quae cumque aspernatur. Quas maiores voluptates eligendi reiciendis sequi eum, laboriosam officia nisi suscipit perspiciatis. Dolorem, alias mollitia? <a href="saske.html">Подробнее</a> </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-4"> <img class='slider-pic' src="img/naruto.png" alt=""></div>
+            <div class="slider-text  col-8">
+              <h3 class="slider-name">Naruto</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis aliquam nostrum commodi quos harum ut dolore iusto corporis, similique modi eveniet ipsum quas iste ex veritatis. Fugit repudiandae corporis a aliquid quisquam quae cumque aspernatur. Quas maiores voluptates eligendi reiciendis sequi eum, laboriosam officia nisi suscipit perspiciatis. Dolorem, alias mollitia? <a href="naruto.html">Подробнее</a> </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div>  <div class="container">
+          <div class="row">
+            <div class="col-4"> <img class='slider-pic' src="img/itachi.png" alt=""></div>
+            <div class="slider-text  col-8">
+              <h3 class="slider-name"> Itachi </h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis aliquam nostrum commodi quos harum ut dolore iusto corporis, similique modi eveniet ipsum quas iste ex veritatis. Fugit repudiandae corporis a aliquid quisquam quae cumque aspernatur. Quas maiores voluptates eligendi reiciendis sequi eum, laboriosam officia nisi suscipit perspiciatis. Dolorem, alias mollitia? <a href="saske.html">Подробнее</a> </p>
+            </div>
+          </div>
+        </div> </div>
+    </div>
+
+   </section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+
+  <script>
+
+      $(document).ready(function(){
+        $('.your-class').slick({
+
+          slidesToShow:1,
+          slidesToScroll: 1,
+          autoplay: false,
+          autoplaySpeed: 2000,
+          centerMod: true,
+          arrow: true,
+          dots: true
+
+        });
+      });
+
+    </script>
+    
+</body>
+</html>
