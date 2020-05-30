@@ -1,0 +1,78 @@
+.my-column{
+    text-align: center;
+}
+.logo{
+    height: 50px;
+}
+.hero__container{
+    /* margin-top: 100px; */
+    background-color: white;
+}
+
+.hero__title{
+    text-align: center;
+}
+
+.hero__img{
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.hero__paragraph{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.hero__video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__youtube{
+    width: 100%;
+}
+
+.hero__saske{
+    position: absolute;
+    top: 450px;
+    left: 0;
+}
+
+.hero__naruto{
+    position: absolute;
+    top: 450px;
+    right: 0;
+}
+.slider{
+    margin-top: -3px;
+}
+
+.slider__container{
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.slider-pic{
+    height: 500px;
+}
+.slider-pic{
+    height: 500px;
+}
+
+.slider-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.main{
+    background-image: url('../../img/background.jpg');
+}
