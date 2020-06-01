@@ -146,3 +146,42 @@
     margin-top: 30px;
     margin: auto;
 }
+
+@media (max-width: 992px){
+    .hero__img{
+        display: none;
+    }
+    .hero__naruto{
+        display: none;
+    }
+    .hero__saske{
+        display: none;
+    }
+    .hero__youtube{
+        width: 300px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 576px){
+    .container{
+        max-width: 95% !important;
+    }
+    .slider-pic{
+        width: 100%;
+        height: auto;
+    }
+    .slider__img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider__container{
+        height: 620px;
+        padding-top: 30px;
+    }
+    .photo{
+        width: 80%;
+        height: 250px;
+    }
+}
