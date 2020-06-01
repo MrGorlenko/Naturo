@@ -46,6 +46,7 @@
     position: absolute;
     top: 450px;
     left: 0;
+    z-index: 10000;
 }
 
 .hero__naruto{
@@ -62,6 +63,7 @@
     padding-left: 0;
     padding-right: 0;
 }
+
 
 .slider-pic{
     height: 500px;
@@ -81,4 +83,42 @@
 
 .main{
     background-image: url('../../img/background.jpg');
+}
+
+.about{
+    background-color: #fff;
+    height: 2000px;
+}
+
+.about__pic{
+    width: 100%;
+}
+
+.about__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 620px;
+}
+
+.about__main{
+    width: 95%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.paragraph__pic{
+    width: 400px;
+    height: 250px;
+}
+
+.pic_right{
+    display: flex;
+    justify-content: flex-end;
+}
+.pic_left{
+    display: flex;
+    justify-content: flex-start;
 }
